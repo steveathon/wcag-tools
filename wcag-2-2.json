@@ -1,0 +1,567 @@
+{
+	"principles": [
+		{
+			"criteria": "1",
+			"label": "Perceivable",
+			"guidelines": [
+				{
+					"criteria": "1.1",
+					"label": "Text Alternatives",
+					"children": [
+						{
+							"criteria": "1.1.1",
+							"label": "Non-text Content",
+							"level": "A"
+						}
+					]
+				},
+				{
+					"criteria": "1.2",
+					"label": "Time-based Media",
+					"children": [
+						{
+							"criteria": "1.2.1",
+							"label": "Audio-only and Video-only (Prerecorded)",
+							"level": "A"
+						},
+						{
+							"criteria": "1.2.2",
+							"label": "Captions (Prerecorded)",
+							"level": "A"
+						},
+						{
+							"criteria": "1.2.3",
+							"label": "Audio Description or Media Alternative (Prerecorded)",
+							"level": "A"
+						},
+						{
+							"criteria": "1.2.4",
+							"label": "Captions (Live)",
+							"level": "AA"
+						},
+						{
+							"criteria": "1.2.5",
+							"label": "Audio Description (Prerecorded)",
+							"level": "AA"
+						},
+						{
+							"criteria": "1.2.6",
+							"label": "Sign Language (Prerecorded)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "1.2.7",
+							"label": "Extended Audio Description (Prerecorded)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "1.2.8",
+							"label": "Media Alternative (Prerecorded)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "1.2.9",
+							"label": "Audio-only (Live)",
+							"level": "AAA"
+						}
+					]
+				},
+				{
+					"criteria": "1.3",
+					"label": "Adaptable",
+					"children": [
+						{
+							"criteria": "1.3.1",
+							"label": "Info and Relationships",
+							"level": "A"
+						},
+						{
+							"criteria": "1.3.2",
+							"label": "Meaningful Sequence",
+							"level": "A"
+						},
+						{
+							"criteria": "1.3.3",
+							"label": "Sensory Characteristics",
+							"level": "A"
+						},
+						{
+							"criteria": "1.3.4",
+							"label": "Orientation",
+							"level": "AA",
+							"since": "2.1"
+						},
+						{
+							"criteria": "1.3.5",
+							"label": "Identify Input Purpose",
+							"level": "AA",
+							"since": "2.1"
+						},
+						{
+							"criteria": "1.3.6",
+							"label": "Identify Purpose",
+							"level": "AAA",
+							"since": "2.1"
+						}
+					]
+				},
+				{
+					"criteria": "1.4",
+					"label": "Distinguishable",
+					"children": [
+						{
+							"criteria": "1.4.1",
+							"label": "Use of Color",
+							"level": "A"
+						},
+						{
+							"criteria": "1.4.2",
+							"label": "Audio Control",
+							"level": "A"
+						},
+						{
+							"criteria": "1.4.3",
+							"label": "Contrast (Minimum)",
+							"level": "AA"
+						},
+						{
+							"criteria": "1.4.4",
+							"label": "Resize text",
+							"level": "AA"
+						},
+						{
+							"criteria": "1.4.5",
+							"label": "Images of Text",
+							"level": "AA"
+						},
+						{
+							"criteria": "1.4.6",
+							"label": "Contrast (Enhanced)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "1.4.7",
+							"label": "Low or No Background Audio",
+							"level": "AAA"
+						},
+						{
+							"criteria": "1.4.8",
+							"label": "Visual Presentation",
+							"level": "AAA"
+						},
+						{
+							"criteria": "1.4.9",
+							"label": "Images of Text (No Exception)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "1.4.10",
+							"label": "Reflow",
+							"level": "AA",
+							"since": "2.1"
+						},
+						{
+							"criteria": "1.4.11",
+							"label": "Non-text Contrast",
+							"level": "AA",
+							"since": "2.1"
+						},
+						{
+							"criteria": "1.4.12",
+							"label": "Text Spacing",
+							"level": "AA",
+							"since": "2.1"
+						},
+						{
+							"criteria": "1.4.13",
+							"label": "Content on Hover or Focus",
+							"level": "AA",
+							"since": "2.1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"criteria": "2",
+			"label": "Operable",
+			"guidelines": [
+				{
+					"criteria": "2.1",
+					"label": "Keyboard Accessible",
+					"children": [
+						{
+							"criteria": "2.1.1",
+							"label": "Keyboard",
+							"level": "A"
+						},
+						{
+							"criteria": "2.1.2",
+							"label": "No Keyboard Trap",
+							"level": "A"
+						},
+						{
+							"criteria": "2.1.3",
+							"label": "Keyboard (No Exception)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.1.4",
+							"label": "Character Key Shortcuts",
+							"level": "A",
+							"since": "2.1"
+						}
+					]
+				},
+				{
+					"criteria": "2.2",
+					"label": "Enough Time",
+					"children": [
+						{
+							"criteria": "2.2.1",
+							"label": "Timing Adjustable",
+							"level": "A"
+						},
+						{
+							"criteria": "2.2.2",
+							"label": "Pause, Stop, Hide",
+							"level": "A"
+						},
+						{
+							"criteria": "2.2.3",
+							"label": "No Timing",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.2.4",
+							"label": "Interruptions",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.2.5",
+							"label": "Re-authenticating",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.2.6",
+							"label": "Timeouts",
+							"level": "AAA",
+							"since": "2.1"
+						}
+					]
+				},
+				{
+					"criteria": "2.3",
+					"label": "Seizures and Physical Reactions",
+					"children": [
+						{
+							"criteria": "2.3.1",
+							"label": "Three Flashes or Below Threshold",
+							"level": "A"
+						},
+						{
+							"criteria": "2.3.2",
+							"label": "Three Flashes",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.3.3",
+							"label": "Animation from Interactions",
+							"level": "AAA",
+							"since": "2.1"
+						}
+					]
+				},
+				{
+					"criteria": "2.4",
+					"label": "Navigable",
+					"children": [
+						{
+							"criteria": "2.4.1",
+							"label": "Bypass Blocks",
+							"level": "A"
+						},
+						{
+							"criteria": "2.4.2",
+							"label": "Page Titled",
+							"level": "A"
+						},
+						{
+							"criteria": "2.4.3",
+							"label": "Focus Order",
+							"level": "A"
+						},
+						{
+							"criteria": "2.4.4",
+							"label": "Link Purpose (In Context)",
+							"level": "A"
+						},
+						{
+							"criteria": "2.4.5",
+							"label": "Multiple Ways",
+							"level": "AA"
+						},
+						{
+							"criteria": "2.4.6",
+							"label": "Headings and Labels",
+							"level": "AA"
+						},
+						{
+							"criteria": "2.4.7",
+							"label": "Focus Visible",
+							"level": "AA"
+						},
+						{
+							"criteria": "2.4.8",
+							"label": "Location",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.4.9",
+							"label": "Link Purpose (Link Only)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.4.10",
+							"label": "Section Headings",
+							"level": "AAA"
+						},
+						{
+							"criteria": "2.4.11",
+							"label": "Focus Appearance (Minimum)",
+							"level": "AA",
+							"since": "2.2"
+						},
+						{
+							"criteria": "2.4.12",
+							"label": "Focus Appearance (Enhanced)",
+							"level": "AAA",
+							"since": "2.2"
+						},
+						{
+							"criteria": "2.4.13",
+							"label": "Page Break Navigation",
+							"level": "A",
+							"since": "2.2"
+						}
+					]
+				},
+				{
+					"criteria": "2.5",
+					"label": "Input Modalities",
+					"children": [
+						{
+							"criteria": "2.5.1",
+							"label": "Pointer Gestures",
+							"level": "A",
+							"since": "2.1"
+						},
+						{
+							"criteria": "2.5.2",
+							"label": "Pointer Cancellation",
+							"level": "A",
+							"since": "2.1"
+						},
+						{
+							"criteria": "2.5.3",
+							"label": "Label in Name",
+							"level": "A",
+							"since": "2.1"
+						},
+						{
+							"criteria": "2.5.4",
+							"label": "Motion Actuation",
+							"level": "A",
+							"since": "2.1"
+						},
+						{
+							"criteria": "2.5.5",
+							"label": "Target Size",
+							"level": "AAA",
+							"since": "2.1"
+						},
+						{
+							"criteria": "2.5.6",
+							"label": "Concurrent Input Mechanisms",
+							"level": "AAA",
+							"since": "2.1"
+						},
+						{
+							"criteria": "2.5.7",
+							"label": "Dragging Movements",
+							"level": "AA",
+							"since": "2.2"
+						},
+						{
+							"criteria": "2.5.8",
+							"label": "Target Size (Minimum)",
+							"level": "AA",
+							"since": "2.2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"criteria": "3",
+			"label": "Understandable",
+			"guidelines": [
+				{
+					"criteria": "3.1",
+					"label": "Readable",
+					"children": [
+						{
+							"criteria": "3.1.1",
+							"label": "Language of Page",
+							"level": "A"
+						},
+						{
+							"criteria": "3.1.2",
+							"label": "Language of Parts",
+							"level": "AA"
+						},
+						{
+							"criteria": "3.1.3",
+							"label": "Unusual Words",
+							"level": "AAA"
+						},
+						{
+							"criteria": "3.1.4",
+							"label": "Abbreviations",
+							"level": "AAA"
+						},
+						{
+							"criteria": "3.1.5",
+							"label": "Reading Level",
+							"level": "AAA"
+						},
+						{
+							"criteria": "3.1.6",
+							"label": "Pronunciation",
+							"level": "AAA"
+						}
+					]
+				},
+				{
+					"criteria": "3.2",
+					"label": "Predictable",
+					"children": [
+						{
+							"criteria": "3.2.1",
+							"label": "On Focus",
+							"level": "A"
+						},
+						{
+							"criteria": "3.2.2",
+							"label": "On Input",
+							"level": "A"
+						},
+						{
+							"criteria": "3.2.3",
+							"label": "Consistent Navigation",
+							"level": "AA"
+						},
+						{
+							"criteria": "3.2.4",
+							"label": "Consistent Identification",
+							"level": "AA"
+						},
+						{
+							"criteria": "3.2.5",
+							"label": "Change on Request",
+							"level": "AAA"
+						},
+						{
+							"criteria": "3.2.6",
+							"label": "Consistent Help",
+							"level": "A",
+							"since": "2.2"
+						},
+						{
+							"criteria": "3.2.7",
+							"label": "Visible Controls",
+							"level": "AA",
+							"since": "2.2"
+						}
+					]
+				},
+				{
+					"criteria": "3.3",
+					"label": "Input Assistance",
+					"children": [
+						{
+							"criteria": "3.3.1",
+							"label": "Error Identification",
+							"level": "A"
+						},
+						{
+							"criteria": "3.3.2",
+							"label": "Labels or Instructions",
+							"level": "A"
+						},
+						{
+							"criteria": "3.3.3",
+							"label": "Error Suggestion",
+							"level": "AA"
+						},
+						{
+							"criteria": "3.3.4",
+							"label": "Error Prevention (Legal, Financial, Data)",
+							"level": "AA"
+						},
+						{
+							"criteria": "3.3.5",
+							"label": "Help",
+							"level": "AAA"
+						},
+						{
+							"criteria": "3.3.6",
+							"label": "Error Prevention (All)",
+							"level": "AAA"
+						},
+						{
+							"criteria": "3.3.7",
+							"label": "Accessible Authentication",
+							"level": "A",
+							"since": "2.2"
+						},
+						{
+							"criteria": "3.3.8",
+							"label": "Redundant Entry",
+							"level": "A",
+							"since": "2.2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"criteria": "4",
+			"label": "Robust",
+			"guidelines": [
+				{
+					"criteria": "4.1",
+					"label": "Compatible",
+					"children": [
+						{
+							"criteria": "4.1.1",
+							"label": "Parsing",
+							"level": "A"
+						},
+						{
+							"criteria": "4.1.2",
+							"label": "Name, Role, Value",
+							"level": "A"
+						},
+						{
+							"criteria": "4.1.3",
+							"label": "Status Messages",
+							"level": "AA",
+							"since": "2.1"
+						}
+					]
+				}
+			]
+		}
+	]
+}
